@@ -1,0 +1,137 @@
+.body-experiencia {
+  background: black;
+}
+
+.container-experiencia {
+  margin: 50px;
+  width: 80%;
+  P {
+    color: white;
+  }
+  h1 {
+    color: white;
+    margin-bottom: 5px;
+  }
+  h6 {
+    color: white;
+  }
+  h5 {
+    color: white;
+  }
+  .box {
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .box-1::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 280px;
+    background: rgb(0, 195, 255);
+    left: -20px;
+    top: 10px;
+    border-radius: 5px;
+  }
+  .box-2::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 345px;
+    background: rgb(1, 191, 255);
+    right: 9px;
+    top: 100px;
+    border-radius: 5px;
+  }
+
+  .box-3::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 370px;
+    background: rgb(1, 191, 255);
+    left: -20px;
+    top: 100px;
+    border-radius: 5px;
+  }
+
+  hr {
+    position: relative;
+    background: rgb(0, 191, 255);
+    border: none;
+    width: 90%;
+    right: 20px;
+    height: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    border-radius: 5px;
+  }
+}
+
+.box-1 {
+  hr {
+    position: relative;
+    right: 50px;
+  }
+  .hr-box1 {
+    width: 90%;
+    position: relative;
+    right: 30px;
+  }
+}
+
+.box-2 {
+  text-align: end;
+  .hr-box2 {
+    width: 90%;
+    position: relative;
+    right: 30px;
+  }
+}
+
+.contenido-box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  right: 50px;
+}
+
+.contenido-box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  left: 5px;
+}
+
+@media (min-width: 575.98px) {
+  .box-1 {
+    .hr-box1 {
+      position: relative;
+      right: 110px;
+      width: 60%;
+    }
+  }
+}
+
+@media (min-width: 575.98px) {
+  .box-2 {
+    .hr-box2 {
+      position: relative;
+      right: 110px;
+      width: 60%;
+    }
+  }
+}
+
+@media (min-width: 575.98px) {
+  .box-3 {
+    .hr-box3 {
+      position: relative;
+      right: 110px;
+      width: 60%;
+    }
+  }
+}

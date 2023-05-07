@@ -1,0 +1,44 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$primary: #d90000;
+$danger: #ff4136;
+$black: black;
+$white: white;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: $black; 
+}
+
+.container {
+  background: rgb(34, 33, 33);
+  margin-top: 15px;
+  padding: 20px;
+  gap: 150px;
+}
+
+.img-fluid {
+  width: 150px;
+  border-radius: 20px;
+}
+
+.container .column-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background: rgb(15, 13, 13);
+  border-radius: 8px;
+  color: $white;
+}
+
+.column-2 {
+  color: $white;
+}

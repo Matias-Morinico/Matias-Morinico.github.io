@@ -1,0 +1,22 @@
+.a-goback a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.a-goback a {
+  top: 0px;
+  position: absolute;
+  background-color: rgba(245, 244, 244, 0.181);
+  width: 100px;
+  height: 25px;
+  margin: 15px;
+  border-radius: 20px;
+  justify-content: center;
+  color: white;
+}
+
+.a-goback a:hover {
+  background-color: #04d8fdcd;
+}
